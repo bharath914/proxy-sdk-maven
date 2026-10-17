@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.proxy.inspector",
+    "module": "inspector-annotations",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "inspector-annotations-0.1.0.jar",
+          "url": "inspector-annotations-0.1.0.jar",
+          "size": 1478,
+          "sha512": "df890e630f62275077da89363b0b63247907eafb852d8bfa830f9d774fd06382afbc92d08ff9759602d7d59d1875d4718a5928fc0b6171927a186e131e574ed2",
+          "sha256": "690f0cdd640f402860189fcfb757631c7ce0cf40421279904e192b4c781f69ae",
+          "sha1": "b368ef0c077f8cfbde98e339f3c872e090fa6e69",
+          "md5": "41d43aaa63499363ca81986993928f5d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "inspector-annotations-0.1.0.jar",
+          "url": "inspector-annotations-0.1.0.jar",
+          "size": 1478,
+          "sha512": "df890e630f62275077da89363b0b63247907eafb852d8bfa830f9d774fd06382afbc92d08ff9759602d7d59d1875d4718a5928fc0b6171927a186e131e574ed2",
+          "sha256": "690f0cdd640f402860189fcfb757631c7ce0cf40421279904e192b4c781f69ae",
+          "sha1": "b368ef0c077f8cfbde98e339f3c872e090fa6e69",
+          "md5": "41d43aaa63499363ca81986993928f5d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "inspector-annotations-0.1.0-sources.jar",
+          "url": "inspector-annotations-0.1.0-sources.jar",
+          "size": 1055,
+          "sha512": "b667f133144e959f3f0637c27b43ed8ba9a77e40044fe9608937e154ba35ab30dbea9b5a2a0fb520819eeac5f82b09e770c3411be6c5b03fd24181514934b442",
+          "sha256": "5f2d664c0f47112c636910f5616d829fbe19e5f6077af2bc0ffc07bbbcac9c57",
+          "sha1": "262a06bf69ad12a15b4779c85155331fb622e1d9",
+          "md5": "b21bc7a35511b6b59fb82d213aee1da0"
+        }
+      ]
+    }
+  ]
+}

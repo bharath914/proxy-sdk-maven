@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.proxy.inspector",
+    "module": "inspector-okhttp",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        },
+        {
+          "group": "dev.proxy.inspector",
+          "module": "inspector-core",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "inspector-okhttp-0.1.0.jar",
+          "url": "inspector-okhttp-0.1.0.jar",
+          "size": 31185,
+          "sha512": "92e783ba1ae85a0efd7f8c471360ee37850a953723c2d9f08aa4b0a9e6d0a7105fb0e782ca464f256c658c18754ce9da8e9eddc9b7a17452925e14510f027757",
+          "sha256": "7b64082d06b8483fab8f3b6c8492e90d399c240f028e05aa33aa1963cc9e5cae",
+          "sha1": "e4e76e2161d2b3287851c045488ee9fbb5c724dd",
+          "md5": "f399bdb1fba2cf73263356c0cf7a3124"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        },
+        {
+          "group": "dev.proxy.inspector",
+          "module": "inspector-core",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "inspector-okhttp-0.1.0.jar",
+          "url": "inspector-okhttp-0.1.0.jar",
+          "size": 31185,
+          "sha512": "92e783ba1ae85a0efd7f8c471360ee37850a953723c2d9f08aa4b0a9e6d0a7105fb0e782ca464f256c658c18754ce9da8e9eddc9b7a17452925e14510f027757",
+          "sha256": "7b64082d06b8483fab8f3b6c8492e90d399c240f028e05aa33aa1963cc9e5cae",
+          "sha1": "e4e76e2161d2b3287851c045488ee9fbb5c724dd",
+          "md5": "f399bdb1fba2cf73263356c0cf7a3124"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "inspector-okhttp-0.1.0-sources.jar",
+          "url": "inspector-okhttp-0.1.0-sources.jar",
+          "size": 6857,
+          "sha512": "fe09a15c6a845a854df5c5cb2df076a141a2ace6f0754f2106cdef573bb116d472e79a1b1d94b7263d7cc82c0411c1dbe0929609debfad18dd4e0784cb378c12",
+          "sha256": "a3e94f243c84cc3502a08d38ef9cf8da92f4a264a40dd00681805c6fc6481ffa",
+          "sha1": "46f1fd58ce8201db299ca9eb536036ca2c845b33",
+          "md5": "7dbcff20eb4e21a3a07d70dc240b73c8"
+        }
+      ]
+    }
+  ]
+}

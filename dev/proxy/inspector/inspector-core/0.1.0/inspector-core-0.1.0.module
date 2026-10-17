@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.proxy.inspector",
+    "module": "inspector-core",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        },
+        {
+          "group": "dev.proxy.inspector",
+          "module": "inspector-annotations",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "inspector-core-0.1.0.jar",
+          "url": "inspector-core-0.1.0.jar",
+          "size": 139913,
+          "sha512": "842e6cc5a7bd8cc9d9afd0dfd516911f187cdc7bd06e1feb6dea9ccb9f271675f768c5f2432fee69bab52ca5b5ceed8461b4906f4fb97e6524227c46e8d9904e",
+          "sha256": "947aa10bc5b3ba2c242727a37313a7b52126a4e657815aba74c4b0ecb285ba1a",
+          "sha1": "58a95e8b5640f27e68f3deb2c61d1720552241f3",
+          "md5": "1904944d1e43b1c2727cc4a7535ec07a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        },
+        {
+          "group": "dev.proxy.inspector",
+          "module": "inspector-annotations",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "inspector-core-0.1.0.jar",
+          "url": "inspector-core-0.1.0.jar",
+          "size": 139913,
+          "sha512": "842e6cc5a7bd8cc9d9afd0dfd516911f187cdc7bd06e1feb6dea9ccb9f271675f768c5f2432fee69bab52ca5b5ceed8461b4906f4fb97e6524227c46e8d9904e",
+          "sha256": "947aa10bc5b3ba2c242727a37313a7b52126a4e657815aba74c4b0ecb285ba1a",
+          "sha1": "58a95e8b5640f27e68f3deb2c61d1720552241f3",
+          "md5": "1904944d1e43b1c2727cc4a7535ec07a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "inspector-core-0.1.0-sources.jar",
+          "url": "inspector-core-0.1.0-sources.jar",
+          "size": 23602,
+          "sha512": "a224b63c73d381a4991882508d20402d6e7f62a390c98e8c82a69e4610eff59418368b09ee2a466e2c2e4b1e7ec6fed49f4e5ce22ac038a25292e87bc48ddcac",
+          "sha256": "a0b11d1c959ec6b24233d6c4dc525f30737e9d32310ec96c0766b92d37cf57ec",
+          "sha1": "28c22619d5f04e022a9dc4a7a7a42a81e7b2f772",
+          "md5": "29b4423c17fd8a6896496870d467d300"
+        }
+      ]
+    }
+  ]
+}

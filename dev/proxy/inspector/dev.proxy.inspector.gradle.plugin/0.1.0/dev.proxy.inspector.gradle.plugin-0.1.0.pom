@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>dev.proxy.inspector</groupId>
+  <artifactId>dev.proxy.inspector.gradle.plugin</artifactId>
+  <version>0.1.0</version>
+  <packaging>pom</packaging>
+  <name>gradle-plugin</name>
+  <description>In-app network inspector for debug builds: streams calls to the Proxy desktop app.</description>
+  <url>https://github.com/bharath914/proxy</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/license/mit</url>
+    </license>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bharath914</id>
+      <name>Bharath Prakash</name>
+      <url>https://github.com/bharath914</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/bharath914/proxy.git</connection>
+    <url>https://github.com/bharath914/proxy</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>dev.proxy.inspector</groupId>
+      <artifactId>gradle-plugin</artifactId>
+      <version>0.1.0</version>
+    </dependency>
+  </dependencies>
+</project>

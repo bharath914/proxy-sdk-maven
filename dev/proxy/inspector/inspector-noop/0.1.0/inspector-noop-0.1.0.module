@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.proxy.inspector",
+    "module": "inspector-noop",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        },
+        {
+          "group": "dev.proxy.inspector",
+          "module": "inspector-annotations",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "inspector-noop-0.1.0.jar",
+          "url": "inspector-noop-0.1.0.jar",
+          "size": 7018,
+          "sha512": "a0cae5558c0b8790e04c5d5d301186e1e5fb61e554530ce3530dcb2bd4ca58dd4b66d5ac49f92feb9cf5ac4a2a32168c2dd955e91a6db2f80a82b84a7263a679",
+          "sha256": "595a909b9360f0d424b1f2476429bed1b491ad2c52b2eb7ed1a3cc30728e78d4",
+          "sha1": "0d9e2b1443e315abb6456bdd5c962b1bdb913fda",
+          "md5": "788c8161abe95aa5d32f5e48653f2f10"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        },
+        {
+          "group": "dev.proxy.inspector",
+          "module": "inspector-annotations",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "inspector-noop-0.1.0.jar",
+          "url": "inspector-noop-0.1.0.jar",
+          "size": 7018,
+          "sha512": "a0cae5558c0b8790e04c5d5d301186e1e5fb61e554530ce3530dcb2bd4ca58dd4b66d5ac49f92feb9cf5ac4a2a32168c2dd955e91a6db2f80a82b84a7263a679",
+          "sha256": "595a909b9360f0d424b1f2476429bed1b491ad2c52b2eb7ed1a3cc30728e78d4",
+          "sha1": "0d9e2b1443e315abb6456bdd5c962b1bdb913fda",
+          "md5": "788c8161abe95aa5d32f5e48653f2f10"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "inspector-noop-0.1.0-sources.jar",
+          "url": "inspector-noop-0.1.0-sources.jar",
+          "size": 1791,
+          "sha512": "585dfbc6a4b469d5070363788f42ce8b567076d8b383dfd74218d133eb4e1894c635fb01236f9a2a0add5f571af2cd0f5404e6849c620aac247b073265532ac8",
+          "sha256": "a7cf0e9bc2170818115b7c75ab92bcde498c57f2c73e704147abc4481ee8a609",
+          "sha1": "982f32271df84af99ba03b061bef56d8deaca4eb",
+          "md5": "841b2faa6c19353cced85f07efa395eb"
+        }
+      ]
+    }
+  ]
+}

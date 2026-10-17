@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.proxy.inspector",
+    "module": "inspector-ktor",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        },
+        {
+          "group": "dev.proxy.inspector",
+          "module": "inspector-core",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "inspector-ktor-0.1.0.jar",
+          "url": "inspector-ktor-0.1.0.jar",
+          "size": 21574,
+          "sha512": "8f0c1840083e2a30b44563cf48b7b837a2f77ff75519fa961cc941a0cd559014ed4b12c58e7fff3cd6efeeebf9830ae663e3c5e0c80410ab1fb060ed75e8ecb8",
+          "sha256": "ada097b6e964de3ad06638d7dc0b4e361c69de1fb4c096dcc7eac073cf1acaa2",
+          "sha1": "bcbc6177ebd5d3b2444473764e64114226f91396",
+          "md5": "b7f1c0449e2d8d17f3f0329a4e532565"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        },
+        {
+          "group": "dev.proxy.inspector",
+          "module": "inspector-core",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "inspector-ktor-0.1.0.jar",
+          "url": "inspector-ktor-0.1.0.jar",
+          "size": 21574,
+          "sha512": "8f0c1840083e2a30b44563cf48b7b837a2f77ff75519fa961cc941a0cd559014ed4b12c58e7fff3cd6efeeebf9830ae663e3c5e0c80410ab1fb060ed75e8ecb8",
+          "sha256": "ada097b6e964de3ad06638d7dc0b4e361c69de1fb4c096dcc7eac073cf1acaa2",
+          "sha1": "bcbc6177ebd5d3b2444473764e64114226f91396",
+          "md5": "b7f1c0449e2d8d17f3f0329a4e532565"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "inspector-ktor-0.1.0-sources.jar",
+          "url": "inspector-ktor-0.1.0-sources.jar",
+          "size": 3160,
+          "sha512": "738cac49e8a3b6412c54131e9cad5bac05619ffa6dc363de2ba370d85fd3dc246949d8805abbc4d7542c4cc57e66df4a794d0a1a4d7f8dbf760408ab98eaa5a1",
+          "sha256": "2c6d9cb1b575c25d4c61afe9a98b690a77b7d837d18a33c42c0113d4bea6effa",
+          "sha1": "1954d902e15de161753aaf3c49acec5268d3b5e1",
+          "md5": "84fefddc6a01136b856c8020152b1032"
+        }
+      ]
+    }
+  ]
+}
